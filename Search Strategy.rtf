@@ -1,0 +1,56 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fnil\fcharset0 HelveticaNeue;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 Research Project: \
+Social Media Marketing // Influencer Marketing
+\fs24 \
+\
+\
+
+\f1\b\fs28 Research Goal: \
+
+\f0\b0\fs24 Get an overview of the different topics that are investigated in related literature, \
+and then see in how far virtual/GCI/AI influencers are already investigated in literature as part of the overall corpus\
+\
+\
+\
+
+\f1\b\fs28 Procedure \'97 Data Collection:\
+
+\f0\b0\fs24 Conduct a Structured Literature Review on Scopus to receive a list of literature\
+\
+\ul Search Date\ulnone : October 26th 2022\
+\
+\ul Search String\ulnone : \
+
+\f2\fs26 TITLE-ABS-KEY((influencer AND "social media")) AND ( LIMIT-TO ( LANGUAGE,"English" ) )\
+\
+\ul Results:\
+\ulnone 1,882 document results\
+\
+=> Results are exported to CSV from Scopus\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 Procedure \'97 Data Synthesis & Analysis:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f2\b0\fs26 \cf0 => CSV-File is read into a jupyter-notebook\
+=> text from the abstracts is tokenized, stemmed, and lemmatized using the NLP SpaCy library\
+=> Latent Dirichlet Allocation (LDA) is run to cluster the tokenized text data into different topic clusters\
+=> LDA model for 1 < N < 30 topics is calculated to get the best number of topics in terms of coherence\
+\
+=> Number of Topics with best coherence score is calculated, translated back into the data sheet and visualized using pyLDAvis\
+\
+\
+\
+\
+\
+}
