@@ -3,9 +3,7 @@
 
 
 ##  Research Goal:
- Get an overview of the different topics that are investigated in related literature,
- and then see in how far virtual/GCI/AI influencers are already investigated in literature as part of the overall corpus
-
+ Get an overview of the different topics that are investigated in social media marketing literature.
 
 
 ### Procedure — Data Collection:
